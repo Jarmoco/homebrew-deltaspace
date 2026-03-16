@@ -1,4 +1,4 @@
-class DeltaSpace < Formula
+class Deltaspace < Formula
   desc "A lightweight filesystem diff tool"
   homepage "https://github.com/Jarmoco/DeltaSpace"
   url "https://github.com/Jarmoco/DeltaSpace/releases/download/v0.1.0/deltaspace_0.1.0_macos_aarch64.tar.gz"
