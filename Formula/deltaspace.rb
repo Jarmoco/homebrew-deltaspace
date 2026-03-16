@@ -6,9 +6,7 @@ class Deltaspace < Formula
   license "MIT"
 
   def install
-    # This part depends on your language. 
-    # For a pre-compiled binary:
-    bin.install "deltaspace"
+    bin.install Dir["**/deltaspace"].first
   end
 
   test do
