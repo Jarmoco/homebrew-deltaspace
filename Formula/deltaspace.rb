@@ -10,7 +10,7 @@ class Deltaspace < Formula
   elsif OS.linux?
     # Replace these with your actual Linux release URL and its SHA-256
     url "https://github.com/Jarmoco/DeltaSpace/releases/download/v0.1.0/deltaspace_0.1.0_linux_x86_64.tar.gz"
-    sha256 "sha256:81c32cd579e429741fab06c8a4bb9baf03715b9e681143563a4fd0d4b2f6ff60"
+    sha256 "81c32cd579e429741fab06c8a4bb9baf03715b9e681143563a4fd0d4b2f6ff60"
   end
 
   def install
