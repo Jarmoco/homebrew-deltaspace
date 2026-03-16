@@ -7,6 +7,7 @@ class Deltaspace < Formula
 
   def install
     bin.install Dir["**/deltaspace"].first
+    chmod 0755, bin/"deltaspace"
   end
 
   test do
