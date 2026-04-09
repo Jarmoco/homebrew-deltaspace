@@ -5,12 +5,12 @@ class Deltaspace < Formula
 
   # 1. Define URLs based on the Operating System
   if OS.mac?
-    url "https://github.com/Jarmoco/DeltaSpace/releases/download/v0.1.5/deltaspace_0.1.5_macos_aarch64.tar.gz"
-    sha256 "44fd6f5641c21a7260b84e3365099ac741fd1f882fde0f6b5a0800ef5c540dc0"
+    url "https://github.com/Jarmoco/DeltaSpace/releases/download/v0.1.6/deltaspace_0.1.6_macos_aarch64.tar.gz"
+    sha256 "4957f1ec9b5977959967fb985416921fb8a9f51fbcc104f25da258a219b46cc0"
   elsif OS.linux?
     # Replace these with your actual Linux release URL and its SHA-256
-    url "https://github.com/Jarmoco/DeltaSpace/releases/download/v0.1.5/deltaspace_0.1.5_linux_x86_64.tar.gz"
-    sha256 "27a9562c0481ef59f059234db2fa13c6a4ceb85852df496a57a50566f85f36c1"
+    url "https://github.com/Jarmoco/DeltaSpace/releases/download/v0.1.6/deltaspace_0.1.6_linux_x86_64.tar.gz"
+    sha256 "fbcd52260b23a6d5b4d4e87fbec62b6901676563f8a69d9e4bdd28d9c9c7ed22"
   end
 
   def install
